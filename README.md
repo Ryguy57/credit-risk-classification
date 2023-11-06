@@ -27,7 +27,7 @@ Observing an imbalanced distribution of healthy and high-risk loans (75,036 vs. 
 
 ## Results
 
-* Original Data Logistic Regression:
+ Original Data Logistic Regression:
 
  * Balanced accuracy score: 94%
  * Precision for healthy loans: 99.57%
@@ -36,7 +36,7 @@ Observing an imbalanced distribution of healthy and high-risk loans (75,036 vs. 
  * Recall for high-risk loans: 89%
 
 
-* Oversampled Data Logistic Regression:
+ Oversampled Data Logistic Regression:
  * Balanced accuracy score: 99.59%
  * Precision for healthy loans: 99.51%
  * Recall for healthy loans: 99.98%
