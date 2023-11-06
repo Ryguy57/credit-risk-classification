@@ -6,7 +6,7 @@
 - [Analysis](#analysis)
 - [Results](#results)
 - [Summary](#summary)
-git
+
 
 
 
@@ -27,20 +27,21 @@ Observing an imbalanced distribution of healthy and high-risk loans (75,036 vs. 
 
 ## Results
 
+* Original Data Logistic Regression:
 
-*Original Data Logistic Regression:
-
- *Balanced accuracy score: 94%
- *Precision for healthy loans: 99.57%
- *Recall for healthy loans: 99.64%
- *Precision for high-risk loans: 87%
- *Recall for high-risk loans: 89%
+ * Balanced accuracy score: 94%
+ * Precision for healthy loans: 99.57%
+ * Recall for healthy loans: 99.64%
+ * Precision for high-risk loans: 87%
+ * Recall for high-risk loans: 89%
 
 
-*Oversampled Data Logistic Regression:
- *Balanced accuracy score: 99.59%
- *Precision for healthy loans: 99.51%
- *Recall for healthy loans: 99.98%
- *Precision for high-risk loans: 87%
- *Recall for high-risk loans: 99.68%
+* Oversampled Data Logistic Regression:
+ * Balanced accuracy score: 99.59%
+ * Precision for healthy loans: 99.51%
+ * Recall for healthy loans: 99.98%
+ * Precision for high-risk loans: 87%
+ * Recall for high-risk loans: 99.68%
 
+ ## Summary
+Logistic Regression with oversampling outperforms the model without oversampling. While predictions for healthy loans are consistent between both models, oversampling significantly enhances high-risk loan recall (99.68% vs. 89%). This improvement is crucial for reducing the number of risky loans approved, prioritizing loan approval for creditworthy customers over high precision for high-risk loans.
