@@ -4,7 +4,10 @@
 - [About](#about)
 - [Tools](#tools)
 - [Analysis](#analysis)
--[Results](#results)
+- [Results](#results)
+- [Summary](#summary)
+git
+
 
 
 ## About
@@ -23,24 +26,21 @@ The data was initially split into the target and feature variables, followed by 
 Observing an imbalanced distribution of healthy and high-risk loans (75,036 vs. 2,500), random oversampling (using RandomOverSampler from imblearn.over_sampling) was employed to balance the classes. The same logistic regression model and evaluation were repeated on the oversampled data.
 
 ## Results
-Results:
-
-Original Data Logistic Regression:
-
-*Balanced accuracy score: 94%
-*Precision for healthy loans: 99.57%
-*Recall for healthy loans: 99.64%
-*Precision for high-risk loans: 87%
-*Recall for high-risk loans: 89%
-
-Oversampled Data Logistic Regression:
-
-*Balanced accuracy score: 99.59%
-*Precision for healthy loans: 99.51%
-*Recall for healthy loans: 99.98%
-*Precision for high-risk loans: 87%
-*Recall for high-risk loans: 99.68%
 
 
+*Original Data Logistic Regression:
 
+ *Balanced accuracy score: 94%
+ *Precision for healthy loans: 99.57%
+ *Recall for healthy loans: 99.64%
+ *Precision for high-risk loans: 87%
+ *Recall for high-risk loans: 89%
+
+
+*Oversampled Data Logistic Regression:
+ *Balanced accuracy score: 99.59%
+ *Precision for healthy loans: 99.51%
+ *Recall for healthy loans: 99.98%
+ *Precision for high-risk loans: 87%
+ *Recall for high-risk loans: 99.68%
 
