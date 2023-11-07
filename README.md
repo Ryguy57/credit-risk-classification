@@ -1,4 +1,4 @@
-# Module 14: Belly Button Challenge
+# Mod 20 Credit Risk Classification
 
 ## Table of Contents
 - [About](#about)
